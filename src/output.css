@@ -415,6 +415,9 @@
   .flex-row {
     flex-direction: row;
   }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
   .items-baseline {
     align-items: baseline;
   }
@@ -585,6 +588,9 @@
   .p-5 {
     padding: calc(var(--spacing) * 5);
   }
+  .p-10 {
+    padding: calc(var(--spacing) * 10);
+  }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
   }
@@ -630,8 +636,20 @@
   .text-\[30px\] {
     font-size: 30px;
   }
+  .text-\[32px\] {
+    font-size: 32px;
+  }
+  .text-\[33px\] {
+    font-size: 33px;
+  }
   .text-\[35px\] {
     font-size: 35px;
+  }
+  .text-\[36px\] {
+    font-size: 36px;
+  }
+  .text-\[38px\] {
+    font-size: 38px;
   }
   .text-\[40px\] {
     font-size: 40px;
@@ -700,6 +718,11 @@
       margin: auto;
     }
   }
+  .lg\:mt-8 {
+    @media (width >= 64rem) {
+      margin-top: calc(var(--spacing) * 8);
+    }
+  }
   .lg\:mt-10 {
     @media (width >= 64rem) {
       margin-top: calc(var(--spacing) * 10);
@@ -765,6 +788,11 @@
       width: 30%;
     }
   }
+  .lg\:w-\[31\%\] {
+    @media (width >= 64rem) {
+      width: 31%;
+    }
+  }
   .lg\:w-\[32\%\*\:\] {
     @media (width >= 64rem) {
       width: 32%*:;
@@ -778,6 +806,16 @@
   .lg\:w-\[32\] {
     @media (width >= 64rem) {
       width: 32;
+    }
+  }
+  .lg\:w-\[33\%\] {
+    @media (width >= 64rem) {
+      width: 33%;
+    }
+  }
+  .lg\:w-\[33\] {
+    @media (width >= 64rem) {
+      width: 33;
     }
   }
   .lg\:w-\[48\%\] {
@@ -835,14 +873,29 @@
       width: 100%;
     }
   }
+  .lg\:max-w-250 {
+    @media (width >= 64rem) {
+      max-width: calc(var(--spacing) * 250);
+    }
+  }
   .lg\:max-w-350 {
     @media (width >= 64rem) {
       max-width: calc(var(--spacing) * 350);
     }
   }
+  .lg\:flex-col {
+    @media (width >= 64rem) {
+      flex-direction: column;
+    }
+  }
   .lg\:flex-row {
     @media (width >= 64rem) {
       flex-direction: row;
+    }
+  }
+  .lg\:flex-wrap {
+    @media (width >= 64rem) {
+      flex-wrap: wrap;
     }
   }
   .lg\:items-center {
@@ -893,6 +946,21 @@
   .lg\:text-\[20px\] {
     @media (width >= 64rem) {
       font-size: 20px;
+    }
+  }
+  .lg\:text-\[21px\] {
+    @media (width >= 64rem) {
+      font-size: 21px;
+    }
+  }
+  .lg\:text-\[22px\] {
+    @media (width >= 64rem) {
+      font-size: 22px;
+    }
+  }
+  .lg\:text-\[23px\] {
+    @media (width >= 64rem) {
+      font-size: 23px;
     }
   }
   .lg\:text-\[25px\] {
