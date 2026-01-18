@@ -374,6 +374,9 @@
   .h-\[900px\] {
     height: 900px;
   }
+  .h-\[960px\] {
+    height: 960px;
+  }
   .h-full {
     height: 100%;
   }
@@ -542,6 +545,9 @@
   .border-\[\#DBE1E9\] {
     border-color: #DBE1E9;
   }
+  .bg-\[\#\#FFB57F\] {
+    background-color: ##FFB57F;
+  }
   .bg-\[\#2A84EE\] {
     background-color: #2A84EE;
   }
@@ -568,6 +574,12 @@
   }
   .bg-\[\#EAF3FD\] {
     background-color: #EAF3FD;
+  }
+  .bg-\[\#FFB57F\] {
+    background-color: #FFB57F;
+  }
+  .bg-\[\#\] {
+    background-color: #;
   }
   .bg-\[\.\/\] {
     background-color: ./;
@@ -605,6 +617,30 @@
   .bg-linear-\[\#2A84EE\,\] {
     --tw-gradient-position: #2A84EE,;
     background-image: linear-gradient(var(--tw-gradient-stops,#2A84EE,));
+  }
+  .bg-\[url\(\'\'\)\] {
+    background-image: url('');
+  }
+  .bg-\[url\(\'\.\/\'\)\] {
+    background-image: url('./');
+  }
+  .bg-\[url\(\'\.\/R\'\)\] {
+    background-image: url('./R');
+  }
+  .bg-\[url\(\'\.\/Re\'\)\] {
+    background-image: url('./Re');
+  }
+  .bg-\[url\(\'\.\/Rec\'\)\] {
+    background-image: url('./Rec');
+  }
+  .bg-\[url\(\'\.\/Rect\'\)\] {
+    background-image: url('./Rect');
+  }
+  .bg-\[url\(\'\.\/Rectan\'\)\] {
+    background-image: url('./Rectan');
+  }
+  .bg-\[url\(\'\.\/Rectang\'\)\] {
+    background-image: url('./Rectang');
   }
   .bg-\[url\(\)\] {
     background-image: url();
@@ -848,6 +884,11 @@
       height: 50%;
     }
   }
+  .lg\:h-\[50px\] {
+    @media (width >= 64rem) {
+      height: 50px;
+    }
+  }
   .lg\:h-\[100\%\] {
     @media (width >= 64rem) {
       height: 100%;
@@ -861,6 +902,26 @@
   .lg\:h-\[500\%\] {
     @media (width >= 64rem) {
       height: 500%;
+    }
+  }
+  .lg\:h-\[550px\] {
+    @media (width >= 64rem) {
+      height: 550px;
+    }
+  }
+  .lg\:h-\[670px\] {
+    @media (width >= 64rem) {
+      height: 670px;
+    }
+  }
+  .lg\:h-\[700px\] {
+    @media (width >= 64rem) {
+      height: 700px;
+    }
+  }
+  .lg\:h-\[750px\] {
+    @media (width >= 64rem) {
+      height: 750px;
     }
   }
   .lg\:h-\[1000\%\] {
